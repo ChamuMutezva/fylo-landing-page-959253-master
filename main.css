@@ -4,7 +4,7 @@
     box-sizing: border-box
 }
 
-body{
+body {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     overflow-x: hidden;
@@ -16,11 +16,12 @@ body{
     position: relative;
     width: 100%;
 }
+
 header {
     position: relative;
     height: 650px;
     width: 100%;
-    
+
 }
 
 .header_bg {
@@ -131,14 +132,14 @@ section.callToAction {
     text-align: center;
 }
 
-section.callToAction p{
+section.callToAction p {
     margin: 0 10% 2% 10%;
 }
 
 input.emailToJoin {
     width: 400px;
     height: 40px;
-    box-shadow: 3px 4px 5px  4px gray;
+    box-shadow: 3px 4px 5px 4px gray;
     border-radius: 10px;
 }
 
@@ -156,22 +157,26 @@ main {
 
 .footer_bg {
     position: absolute;
-     right: 0px;
+    right: 0px;
     left: 0px;
     width: 100%;
     height: 70%;
-    background-color: hsl(243, 79%, 38%);
+    background-color: hsl(243, 87%, 12%);
     transform: skewY(6deg);
     transform-origin: right top;
 }
 
 footer {
+    height: 30vw;
     margin-top: 20%;
 }
 
 .footerContent {
-     color: white; 
+    padding-top: 10%;
+    color: white;
     position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .footerEnd {
@@ -180,3 +185,44 @@ footer {
     height: 40%;
     background-color: red;
 }
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-right: 2px solid white;
+    /* padding-left: 20%; */
+}
+
+.logoSection {
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-right: 2px solid white;
+    padding-right: 10%;
+}
+
+.updates {
+    margin-top: -5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10%;
+    justify-items: end;
+    margin-left: 15%;
+   
+}
+
+.updates input.btnJoin {
+    margin-top: 5%;
+    width: 200px;
+    margin-right: 10%;
+}
+
+.updates input.emailToJoin {
+    width: 300px;
+    height: 40px;
+    margin-right: 10%;
+    }
+
+    .updates p{
+        margin-right: 5%;
+    }
