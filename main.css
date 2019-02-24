@@ -3,16 +3,21 @@
     padding: 0;
     box-sizing: border-box
 }
+
 body{
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     overflow-x: hidden;
 }
 
+.page_wrapper {
+    overflow: hidden;
+    position: relative;
+}
 header {
     position: relative;
     height: 650px;
-    overflow: hidden;
+    
 }
 
 .header_bg {
