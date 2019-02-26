@@ -229,6 +229,38 @@ footer {
     margin-right: 5%;
 }
 
+@media only screen and (min-width: 481px) and (max-width: 900px){
+    footer {
+        height: 800px;
+    }
+
+    .footerContent {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20%;
+    }
+
+    .logoSection {
+        border-right: 0;
+        grid-row-gap: 5vw;
+    }
+
+    .details {
+        justify-items: center;
+        border-right: 0;
+    }
+
+    .companyName, .contactUs, .support {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 10%;
+    }
+
+    .updates {
+        margin-top: 10%;
+    } 
+
+}
+
 @media only screen and (max-width: 480px) {
 
     h2 {
@@ -330,7 +362,7 @@ footer {
     .details {
         grid-template-columns: 1fr;
         margin-top: 30vw;
-        grid-row-gap: 8%;
+        grid-row-gap: 10%;
         margin-left: 10%;
     }
 
