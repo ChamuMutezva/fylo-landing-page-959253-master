@@ -267,11 +267,11 @@ footer {
     }
 
     input.emailToJoin {
-        width: 70vw;
+        width: 50vw;
     }
 
     input.btnJoin {
-        width: 70vw;
+        width: 50vw;
         margin-left: 0;
         margin-top: 5%;
     }
