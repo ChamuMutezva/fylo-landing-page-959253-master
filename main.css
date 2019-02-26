@@ -31,7 +31,7 @@ header {
     right: 0px;
     left: 0px;
     width: 100%;
-   height: 100%;
+    height: 100%;
     background-image: linear-gradient(to right, hsl(243, 79%, 38%), hsl(243, 86%, 85%));
     transform: skewY(6deg);
     transform-origin: right top;
@@ -229,9 +229,9 @@ footer {
     margin-right: 5%;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 900px){
+@media only screen and (min-width: 481px) and (max-width: 900px) {
     footer {
-        height: 800px;
+        height: 900px;
     }
 
     .footerContent {
@@ -249,7 +249,9 @@ footer {
         border-right: 0;
     }
 
-    .companyName, .contactUs, .support {
+    .companyName,
+    .contactUs,
+    .support {
         display: grid;
         grid-template-columns: 1fr;
         grid-row-gap: 10%;
@@ -257,7 +259,48 @@ footer {
 
     .updates {
         margin-top: 10%;
-    } 
+    }
+
+    section.callToAction p {
+        margin: 10% 10%;
+    }
+
+    input.emailToJoin {
+        width: 70vw;
+    }
+
+    input.btnJoin {
+        width: 70vw;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .hero img {
+        width: 80%;
+    }
+
+    .allFiles {
+        margin-top: 10%;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    section.getStarted {
+        grid-template-columns: 1fr;
+    }
+
+    .getStartedSign {
+        grid-row: 2;
+    }
+
+    .getStarted img {
+        justify-self: center;
+       
+    }
 
 }
 
@@ -295,7 +338,7 @@ footer {
 
     .signToStart {
         height: 50px;
-    line-height: 50px;
+        line-height: 50px;
         margin: 5% auto;
     }
 
@@ -326,11 +369,13 @@ footer {
         margin-bottom: 5%;
         margin-top: 5%;
     }
+
     input.btnJoin {
         width: 90%;
     }
 
-    .logoSection, .details {
+    .logoSection,
+    .details {
         border-right: 0;
     }
 
@@ -366,7 +411,7 @@ footer {
         margin-left: 10%;
     }
 
-    .details h3{
+    .details h3 {
         font-size: large;
     }
 
