@@ -143,6 +143,7 @@ input.emailToJoin {
     height: 40px;
     box-shadow: 3px 4px 5px 4px gray;
     border-radius: 10px;
+    padding-left: 5%;
 }
 
 input.btnJoin {
