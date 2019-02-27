@@ -426,4 +426,8 @@ footer {
     .details p {
         font-size: small;
     }
+
+    header {
+        height: 700px;
+    }
 }
