@@ -94,6 +94,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: black;
+}
+
 .signToStart {
     width: 200px;
     height: 40px;
@@ -152,6 +156,8 @@ input.btnJoin {
     margin-left: 3%;
     font-size: x-large;
     background-color: hsl(163, 95%, 43%);
+    border-radius: 7px;
+    color: white;
 }
 
 main {
@@ -231,6 +237,11 @@ footer {
 }
 
 @media only screen and (min-width: 481px) and (max-width: 900px) {
+
+    header {
+        height: 1000px;
+    }
+
     footer {
         height: 900px;
     }
@@ -300,7 +311,7 @@ footer {
 
     .getStarted img {
         justify-self: center;
-       
+
     }
 
 }
