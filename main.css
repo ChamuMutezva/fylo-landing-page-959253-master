@@ -150,6 +150,11 @@ input.emailToJoin {
     padding-left: 5%;
 }
 
+input.btnJoin:hover,.signToStart:hover  {
+    transform: scale(1.03);
+    color: black;
+}
+
 input.btnJoin {
     width: 300px;
     height: 40px;
