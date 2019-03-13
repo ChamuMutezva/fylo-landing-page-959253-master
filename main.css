@@ -91,7 +91,7 @@ h2 {
 }
 
 h3 {
-    font-size: x-large;
+    font-size: large;
     text-align: start;
     /* font-weight: 900; */
 }
@@ -355,7 +355,7 @@ footer {
 @media only screen and (max-width: 480px) {
 
     h2 {
-        font-size: large;
+        font-size: x-large;
         /* font-weight: 900; */
     }
 
