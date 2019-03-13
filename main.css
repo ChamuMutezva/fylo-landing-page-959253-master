@@ -270,7 +270,7 @@ footer {
     }
 
     footer {
-        height: 900px;
+        height: 1000px;
     }
 
     .footerContent {
@@ -344,6 +344,10 @@ footer {
     h3 {
         margin-top: 5%;
         text-align: center;
+    }
+
+    .details h3 {
+        text-align: start;
     }
 
 }
